@@ -1,0 +1,26 @@
+Homework 9/26
+
+1.	
+
+2.
+
+3.
+
+ 
+
+1. What is the difference in a hash map versus a hash table?
+Hash map is unsycronized and allows 1 null key and multiple null values.  Hash tables are sycronized and do not allow null keys or values.
+2. Why should you generally override the equals and hashCode methods?
+These overrides are generaly done because objects have uneque hash codess and if you wanted to see if they where the same these methodes would have to be over written.   
+3. How does a factory design pattern work?
+Factory design pattern or methode works by combining a super and sub classes int a single object to be run on a client.   
+4. How does Java Garbage Collection Work?
+Java is run in a Java Virtual Machine(JVM).  In a JVM objects are allocated memory in a heep.  All JMV's have automatic garbage collection processes that deletes unused objects from the heap to free up memory for other objects to process.  
+5. What is the difference in a HashMap vs a HashTable?
+Hash map is unsycronized and allows 1 null key and multiple null values.  Hash tables are sycronized and do not allow null keys or values.
+6. What is a sparse Array?
+This is an array where segnifigant portion of the array is the same value usually 0 or nul. 
+7. What is the difference in a ArrayList and the List?
+List is an interface and array list is a class that is a subtype of list.
+8. What is the difference in comparator vs comparable?
+Comparable compares an object to a this variable.  Comparator compares two seperate objects. 
